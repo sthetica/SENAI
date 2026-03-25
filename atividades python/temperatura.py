@@ -6,7 +6,7 @@ acima_100 = 0
 for i  in range(1, 11):
     temperatura = float(input("Digite a temperatura: "))
 
-    if i ==   ,
+    if i == temperatura:
         maior = temperatura
         menor = temperatura
     else:
