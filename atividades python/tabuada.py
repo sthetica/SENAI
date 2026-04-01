@@ -1,16 +1,6 @@
 while True:
-
-    num1 = int(input("Digite o primeiro número: "))
-    num2 = int(input("Digite o segundo número: "))
-
-    if num1 > 10:
-        print("Seu número é maior que 10, insira um número menor")
-        continue
-    if num1 > 10:
-        print("Seu número é maior que 10, insira um número menor")
-        continue
-
-    resultado = num1 * num2 
-    print(f"O reultado da sua multiplicação é: {resultado}")
-
-    
+    num1 = int(input("Digite o número que deseja saber a tabuada: \n"))
+    for i in range (1,11):
+        resultado = num1 * i
+        print(f"a tabuada do número {num1} X {i} é: \n {resultado}")
+        
